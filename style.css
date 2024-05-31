@@ -61,3 +61,11 @@ body {
   border-color: green;
   outline: none;
 }
+@media only screen and (max-width: 1200px) {
+  .login {
+    width: 60%;
+  }
+  .inputs input:not(.login-press):focus {
+    width: 120%;
+  }
+}
